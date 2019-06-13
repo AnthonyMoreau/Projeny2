@@ -9675,17 +9675,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: 1.2;
 }
 
+ol, ul, dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   font-size: 16px;
 }
 
-#nav {
-  height: auto;
-}
-
 .myNav {
   background-color: black;
-  height: 3.5em;
+  height: auto;
 }
 .myNav h1 {
   padding-left: 10px;
@@ -9717,7 +9718,6 @@ body {
   padding-left: 12px;
   padding-bottom: 12px;
   font-size: 12px;
-  height: 50vh;
 }
 .myNav ul li {
   text-decoration: none;
@@ -9739,6 +9739,7 @@ body {
   display: none;
 }
 .myNav .display-block {
+  height: auto;
   display: block;
 }
 

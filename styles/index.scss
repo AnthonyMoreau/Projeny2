@@ -1,12 +1,9 @@
 body {
     font-size: $font_base; 
 }
-#nav{
-    height: auto;
-}
 .myNav {
     background-color: $dark;
-    height: $heightNav;
+    height: auto;
     
     h1{
         padding-left: 10px;
@@ -40,8 +37,6 @@ body {
         padding-left: 12px;
         padding-bottom: 12px;
         font-size: 12px;
-        height: 50vh;
-
         li {
             text-decoration: none;
             list-style: none;
@@ -63,6 +58,7 @@ body {
         display: none;
     }
     .display-block {
+        height: auto;
         display: block;
     }
 
