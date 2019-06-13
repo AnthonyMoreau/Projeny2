@@ -1,7 +1,9 @@
 body {
     font-size: $font_base; 
 }
-
+#nav{
+    height: auto;
+}
 .myNav {
     background-color: $dark;
     height: $heightNav;
@@ -38,6 +40,7 @@ body {
         padding-left: 12px;
         padding-bottom: 12px;
         font-size: 12px;
+        height: 50vh;
 
         li {
             text-decoration: none;
@@ -63,4 +66,22 @@ body {
         display: block;
     }
 
+}
+main{
+    .image{
+        background-color: $dark;
+        color: $white;
+        img{
+            width: 100%;
+        }
+        h6{
+            font-weight: bold;
+            font-size: 0.6em;
+            padding: 10px 0 10px 5px;
+            
+        }
+        p{
+            font-weight: 200!important;
+        }
+    }
 }
