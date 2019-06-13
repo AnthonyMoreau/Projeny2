@@ -3,25 +3,64 @@ body {
 }
 
 .myNav {
-    background-color: firebrick;
+    background-color: $dark;
     height: $heightNav;
     
     h1{
         padding-left: 10px;
         font-size: 1.2em;
+        color: $white;
     }
 
     .menu {
         height: $heightNav;
-        background-color: hotpink;
+        background-color: $dark;
+        color: $white;
+        &:hover {
+            cursor: pointer;
+        }
     }
     .loupe{
         height: $heightNav;
-        background-color: blueviolet;
+        background-color: $green;
+        color: $white;
 
-        i{
-            text-align: center;
+    }
+    i {
+        transform: scale(1);
+        transition: transform 1s;
+        &:hover {
+            transform: scale(1.1) rotate(10deg);
         }
+    }
+    ul {
+        background-color: $dark;
+        padding-left: 12px;
+        padding-bottom: 12px;
+        font-size: 12px;
+
+        li {
+            text-decoration: none;
+            list-style: none;
+            a {
+                color: $white !important;
+                &:hover {
+                    text-decoration: none;
+                    color: orange !important;
+                }
+            }
+        }
+        hr {
+            background-color: whitesmoke;
+            margin-top: 0.4rem !important;
+            margin-bottom: 0.4rem !important;
+        }
+    }
+    .display-none {
+        display: none;
+    }
+    .display-block {
+        display: block;
     }
 
 }

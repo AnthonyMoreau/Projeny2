@@ -9680,23 +9680,61 @@ body {
 }
 
 .myNav {
-  background-color: firebrick;
+  background-color: black;
   height: 3.5em;
 }
 .myNav h1 {
   padding-left: 10px;
   font-size: 1.2em;
+  color: white;
 }
 .myNav .menu {
   height: 3.5em;
-  background-color: hotpink;
+  background-color: black;
+  color: white;
+}
+.myNav .menu:hover {
+  cursor: pointer;
 }
 .myNav .loupe {
   height: 3.5em;
-  background-color: blueviolet;
+  background-color: #24890d;
+  color: white;
 }
-.myNav .loupe i {
-  text-align: center;
+.myNav i {
+  transform: scale(1);
+  transition: transform 1s;
+}
+.myNav i:hover {
+  transform: scale(1.1) rotate(10deg);
+}
+.myNav ul {
+  background-color: black;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  font-size: 12px;
+}
+.myNav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.myNav ul li a {
+  color: white !important;
+}
+.myNav ul li a:hover {
+  text-decoration: none;
+  color: orange !important;
+}
+.myNav ul hr {
+  background-color: whitesmoke;
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.4rem !important;
+}
+.myNav .display-none {
+  display: none;
+}
+.myNav .display-block {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
