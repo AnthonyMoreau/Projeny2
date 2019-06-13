@@ -9764,6 +9764,7 @@ main .image p a {
 }
 main .image p a:hover {
   color: #24890d;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
