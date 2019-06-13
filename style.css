@@ -9683,9 +9683,19 @@ body {
   background-color: firebrick;
   height: 3.5em;
 }
+.myNav h1 {
+  padding-left: 10px;
+}
 .myNav .menu {
   height: 3.5em;
   background-color: hotpink;
+}
+.myNav .loupe {
+  height: 3.5em;
+  background-color: blueviolet;
+}
+.myNav .loupe i {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

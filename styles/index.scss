@@ -5,9 +5,22 @@ body {
 .myNav {
     background-color: firebrick;
     height: $heightNav;
+    
+    h1{
+        padding-left: 10px;
+    }
 
     .menu {
         height: $heightNav;
         background-color: hotpink;
     }
+    .loupe{
+        height: $heightNav;
+        background-color: blueviolet;
+
+        i{
+            text-align: center;
+        }
+    }
+
 }
