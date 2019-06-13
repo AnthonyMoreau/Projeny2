@@ -9757,6 +9757,13 @@ main .image h6 {
 }
 main .image p {
   font-weight: 200 !important;
+  padding-left: 5px;
+}
+main .image p a {
+  color: white;
+}
+main .image p a:hover {
+  color: #24890d;
 }
 
 /*# sourceMappingURL=style.css.map */

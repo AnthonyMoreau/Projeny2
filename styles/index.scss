@@ -63,7 +63,7 @@ body {
     }
 
 }
-main{
+main{   
     .image{
         background-color: $dark;
         color: $white;
@@ -77,7 +77,15 @@ main{
             
         }
         p{
+
             font-weight: 200!important;
+             padding-left: 5px;
+             a{
+                 color: $white;
+                 &:hover{
+                     color: $green;
+                 }
+             }
         }
     }
 }
